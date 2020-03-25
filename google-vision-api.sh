@@ -39,6 +39,8 @@ if [ x$X = "x" ]; then
   exit 999 
 fi
 
-#rm -f request.json
+rm -f request.json
 rm -f $1.base64
+rm -f response.json
+
 exit $X
